@@ -20,7 +20,32 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* My codigo */
+  display: flex;
+  padding: 15px;
+  gap: 15px;
 }
+
+.header {
+  /* My codigo */
+  font-weight: bold;
+  font-size: large;
+}
+
+.title{
+  /* My codigo */
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  /* My codigo */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
 
 .icon {
   color: royalblue;
@@ -33,6 +58,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* My codigo */
+  flex: 1 0 auto;
 }
 
 .close-button {
@@ -64,3 +91,4 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
